@@ -1,0 +1,97 @@
+**********************
+PowerShell transcript start
+Start time: 20220928010952
+Username: LAPTOP-34ON68IJ\po530
+RunAs User: LAPTOP-34ON68IJ\po530
+Configuration Name: 
+Machine: LAPTOP-34ON68IJ (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -noexit -command try { . "c:\Users\po530\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 21744
+PSVersion: 7.2.6
+PSEdition: Core
+GitCommitId: 7.2.6
+OS: Microsoft Windows 10.0.19044
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.6
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is lab1_task3_transcript.txt
+]633;E;Start-Transcript lab1_task3_transcript.txt]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1PS C:\Users\po530\Documents\GitHub\3140_lab1> ]633;B
+PS>mkdir step1
+
+    Directory: C:\Users\po530\Documents\GitHub\3140_lab1
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           9/28/2022  1:10 AM                step1
+
+]633;E;mkdir step1]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1PS C:\Users\po530\Documents\GitHub\3140_lab1> ]633;B
+PS>ls
+
+    Directory: C:\Users\po530\Documents\GitHub\3140_lab1
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           9/28/2022  1:10 AM                step1
+-a---           9/28/2022  1:10 AM           1298 lab1_task3_transcript.txt
+-a---           9/28/2022 12:16 AM             13 README.md
+
+]633;E;ls]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1PS C:\Users\po530\Documents\GitHub\3140_lab1> ]633;B
+PS>cd .\step1\
+]633;E;cd .\\step1\\]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1\step1PS C:\Users\po530\Documents\GitHub\3140_lab1\step1> ]633;B
+PS>echo 'step3 hello world' >step3.txt
+>> ParameterBinding(Out-File): name="InputObject"; value="step3 hello world"
+]633;E;echo 'step3 hello world' >step3.txt]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1\step1PS C:\Users\po530\Documents\GitHub\3140_lab1\step1> ]633;B
+PS>ls
+
+    Directory: C:\Users\po530\Documents\GitHub\3140_lab1\step1
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           9/28/2022  1:10 AM             19 step3.txt
+
+]633;E;ls]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1\step1PS C:\Users\po530\Documents\GitHub\3140_lab1\step1> ]633;B
+PS>cp .\step3.txt .\step3_copy.txt
+]633;E;cp .\\step3.txt .\\step3_copy.txt]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1\step1PS C:\Users\po530\Documents\GitHub\3140_lab1\step1> ]633;B
+PS>ls
+
+    Directory: C:\Users\po530\Documents\GitHub\3140_lab1\step1
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           9/28/2022  1:10 AM             19 step3_copy.txt
+-a---           9/28/2022  1:10 AM             19 step3.txt
+
+]633;E;ls]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1\step1PS C:\Users\po530\Documents\GitHub\3140_lab1\step1> ]633;B
+PS>mv .\step3_copy.txt ..
+]633;E;mv .\\step3_copy.txt ..]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1\step1PS C:\Users\po530\Documents\GitHub\3140_lab1\step1> ]633;B
+PS>cd ..
+]633;E;cd ..]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1PS C:\Users\po530\Documents\GitHub\3140_lab1> ]633;B
+PS>ls
+
+    Directory: C:\Users\po530\Documents\GitHub\3140_lab1
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           9/28/2022  1:11 AM                step1
+-a---           9/28/2022  1:11 AM           3738 lab1_task3_transcript.txt
+-a---           9/28/2022 12:16 AM             13 README.md
+-a---           9/28/2022  1:10 AM             19 step3_copy.txt
+
+]633;E;ls]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1PS C:\Users\po530\Documents\GitHub\3140_lab1> ]633;B
+PS>cp ..\..\..\eclipse-workspace\cisc3140\src\lab1\labTimer.java 
+]633;E;cp ..\\..\\..\\eclipse-workspace\\cisc3140\\src\\lab1\\labTimer.java ]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1PS C:\Users\po530\Documents\GitHub\3140_lab1> ]633;B
+PS>ls
+
+    Directory: C:\Users\po530\Documents\GitHub\3140_lab1
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----           9/28/2022  1:11 AM                step1
+-a---           9/28/2022  1:12 AM           4530 lab1_task3_transcript.txt
+-a---           9/27/2022 10:08 PM           1077 labTimer.java
+-a---           9/28/2022 12:16 AM             13 README.md
+-a---           9/28/2022  1:10 AM             19 step3_copy.txt
+
