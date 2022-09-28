@@ -19,13 +19,13 @@ public class labTimer {
 	    System.out.println("Today is " + formatter.format(now));
 	    for(int i=1; i<5; i++) {
 	    	long diffMilli = dates[i].getTime() - now.getTime();
-	    	long diffDay = TimeUnit.MILLISECONDS.toDays(diffMilli)+1;
+	    	long diffDay = TimeUnit.MILLISECONDS.toDays(diffMilli);
 	    	if(diffDay > 0) {
 	    		System.out.println("There is " + diffDay + " day(s) until lab" + i + " is dued");   
 	    	}else{
 	    		System.out.println("lab" + i + " is dued"); 
 	    	}
 	    }
-	    System.out.println("Keep going!!!"); 
+	    System.out.println("Keep going!!!!"); 
 	}
 }
