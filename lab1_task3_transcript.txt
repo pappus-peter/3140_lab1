@@ -95,3 +95,16 @@ d----           9/28/2022  1:11 AM                step1
 -a---           9/28/2022 12:16 AM             13 README.md
 -a---           9/28/2022  1:10 AM             19 step3_copy.txt
 
+]633;E;ls]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1PS C:\Users\po530\Documents\GitHub\3140_lab1> ]633;B
+PS>git add -A
+
+]633;E;git add -A]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1PS C:\Users\po530\Documents\GitHub\3140_lab1> ]633;B
+PS>git commit -m "added java program from task4, step4 completed"
+
+]633;E;git commit -m "added java program from task4, step4 completed"]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1PS C:\Users\po530\Documents\GitHub\3140_lab1> ]633;B
+PS>rm -r .\step1\
+]633;E;rm -r .\\step1\\]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1PS C:\Users\po530\Documents\GitHub\3140_lab1> ]633;B
+PS>rm .\step3_copy.txt
+]633;E;rm .\\step3_copy.txt]633;D;0]633;A]633;P;Cwd=C:\Users\po530\Documents\GitHub\3140_lab1PS C:\Users\po530\Documents\GitHub\3140_lab1> ]633;B
+PS>git status
+
